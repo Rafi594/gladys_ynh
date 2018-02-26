@@ -1,9 +1,9 @@
 {
-    "name": "YunoHost example app",
-    "id": "ynhexample",
+    "name": "Gladys",
+    "id": "gladys",
     "packaging_format": 1,
     "description": {
-        "en": "Example package for YunoHost application.",
+        "en": "Gladys is a home automation software for YunoHost.",
         "fr": "Exemple de package d’application pour YunoHost."
     },
     "version": "1.0",
@@ -15,7 +15,7 @@
         "url": "http://example.com"
     },
     "requirements": {
-        "yunohost": ">= 2.7.2"
+        "yunohost": ">= 2.7.9"
     },
     "multi_instance": true,
     "services": [
@@ -61,15 +61,6 @@
                     "fr": "Est-ce une application publique ?"
                 },
                 "default": true
-            },
-            {
-                "name": "language",
-                "ask": {
-                    "en": "Choose the application language",
-                    "fr": "Choisissez la langue de l'application"
-                },
-                "choices": ["fr", "en"],
-                "default": "fr"
             }
         ]
     }
