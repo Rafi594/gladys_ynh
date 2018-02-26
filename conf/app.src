@@ -1,5 +1,5 @@
-SOURCE_URL=url of app's source
-SOURCE_SUM=sha256 checksum
+SOURCE_URL=https://github.com/GladysProject/Gladys/releases/download/v3.7.7/gladys-v3.7.7-Linux-armv6l.tar.gz
+SOURCE_SUM=bd7c5c2e450b5be0141a3a83642374b74c035786b670e467ee75cb6c56dfc54d
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
